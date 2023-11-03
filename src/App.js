@@ -3,7 +3,6 @@ import './App.css';
 import C01componente from './componentes/C01componente';
 import C02contador from './componentes/C02contador';
 import Variables from './componentes/C04variable';
-import C06matriz from './componentes/C06matriz';
 import C07matrizOperaciones from './componentes/C07matrizOperaciones';
 
 function App() {
@@ -15,8 +14,6 @@ function App() {
       <C02contador />
       <hr/>
       <Variables xVariable="Lectura a variables" />
-      <hr/>
-      <C06matriz />
       <hr/>
       <C07matrizOperaciones />
       <hr/>
