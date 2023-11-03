@@ -8,7 +8,7 @@ import C07matrizOperaciones from './componentes/C07matrizOperaciones';
 function App() {
   return (
     <div className='App'>
-      <h1>Practocas... React</h1>
+      <h1>Practicas... React</h1>
       <C01componente />
       <hr/>
       <C02contador />
