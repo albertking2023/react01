@@ -1,6 +1,6 @@
-import React, {useState, Fragment} from "react";
+import React,{useState, Fragment} from "react";
 
-const MatrizOperaciones = () => {
+const C07matrizOperaciones = () => {
 
     Const [lista, setlista] = useState([1,2,3,4,5]);
     const [dias, setDias] = useState(["Lunes","Martes","Miercoles","Jueves"]);
@@ -49,26 +49,8 @@ const MatrizOperaciones = () => {
                 )
             }
             <br/>
-            
-
-
-
-            
-            
-            </Fragment>
+        </Fragment>
     )
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
+
+export default C07matrizOperaciones;
