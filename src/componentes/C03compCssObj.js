@@ -22,4 +22,4 @@ const C03componenteConCss = () => {
     )
 }
 
-export default 03componenteConCss; 
+export default C03componenteConCss; 
