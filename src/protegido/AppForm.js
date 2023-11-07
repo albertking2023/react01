@@ -17,7 +17,8 @@ const AppForm = (props) => {
                 <option value="">Seleccione género...</option>
                 <option value="Masculino">Masculino</option>
                 <option value="Femenino">Femenino</option>
-            </select> <br/>
+            </select> 
+            <br/>
             <button>Guardar / Actualizar</button>
             </form>
     </div>
