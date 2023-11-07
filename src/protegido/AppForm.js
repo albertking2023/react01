@@ -18,7 +18,6 @@ const AppForm = (props) => {
                 <option value="Masculino">Masculino</option>
                 <option value="Femenino">Femenino</option>
             </select> <br/>
-
             <button>Guardar / Actualizar</button>
             </form>
     </div>
