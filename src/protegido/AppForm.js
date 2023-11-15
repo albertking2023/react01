@@ -13,9 +13,8 @@ const AppForm = (props) => {
   }
 
   //////////// GUARDAR-ACTUALIZAR ////////////
-const camposRegistro = { nombre: "", edad:"", genero:""};
+const camposRegistro = { nombre:"", edad:"", genero:""};
 const [objeto, setObjeto] = useState(camposRegistro);
-
 const handleSubmit = async (e) => {                  // Manejador del submit
 e.preventDefault();                                  // Evitar accion por defecto
   try {
@@ -37,8 +36,6 @@ e.preventDefault();                                  // Evitar accion por defect
   }
 
 }
-
-
 const validarForm = () => {
   if(objeto.nombre === "" || /^\s+$/.test(objeto.nombre)){
     alert("Escriba nombre...");
@@ -75,7 +72,7 @@ const obtenerDatosPorId = async (xId) => {
             <h2>Registrar (AppForm.js)</h2>
 
             <input onChange={handleStatusChange} value={objeto.nombre}
-            name='nonbre' type='text' placeholder='Nombre...' /> <br/>
+            name='nombre' type='text' placeholder='Nombre...' /> <br/>
 
             <input onChange={handleStatusChange} value={objeto.edad}
             name= 'edad' type='text' placeholder='Edad...' /> <br/>

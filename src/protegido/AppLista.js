@@ -18,8 +18,8 @@ const AppLista = (props) => {
         });
     }
     
-    //fnRead();
-    useEffect(()=>{fnRead();}, [props.IdActual]);
+    fnRead();
+    //useEffect(()=>{fnRead();}, [props.IdActual]);
     //console.log(docBD);
 
     //// Delete /////////
