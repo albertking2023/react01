@@ -23,7 +23,7 @@ const AppLista = (props) => {
     //console.log(docBD);
 
     //// Delete /////////
-    const [IdActual, setIdActual] =useState("");      //Variable para id de c/coleccion
+    const [idActual, setIdActual] =useState("");      //Variable para id de c/coleccion
     const fnDelete = async (xId) => {                       //
         if(window.confirm("Confirme para eliminar")){ // Ventana para confirmar 
             await deleteDoc(doc(db, "persona", xId)); // Elimina en BD
@@ -35,7 +35,7 @@ const AppLista = (props) => {
     return (
         <div style={{background:"greenyellow", padding:"10px"}}>
             <h1>AppList.js</h1>
-            <AppForm {...{IdActual, setIdActual}}/>  {/* Envios de variables */}
+            <AppForm {...{idActual, setIdActual}}/>  {/* Envios de variables */}
             <h3>Lista de clientes</h3>
             {
                 docBD.map((row, index) =>            // Extraer registro e index 
